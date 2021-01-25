@@ -45,7 +45,7 @@ export default function App() {
             <SubItems />
           </Route>
           <Route path="/">
-            <Home />
+            <Order />
           </Route>
 
         </Switch>
