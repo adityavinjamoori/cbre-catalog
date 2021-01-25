@@ -3,7 +3,7 @@ const catalog = {
     "items":[{
         "item":"BURRITO",
         "subTitle":"PROTEIN OR VEGGIE",
-        "description":"Elit excepteur cupidatat deserunt culpa ex exercitation voluptate elit anim. Magna irure aliqua pariatur duis quis eiusmod veniam eiusmod. Ut adipisicing eu anim commodo Lorem esse aute deserunt veniam esse quis est veniam officia. Adipisicing laboris enim nostrud duis amet in in do eu enim excepteur. Nisi consequat deserunt qui laborum adipisicing. Aliqua veniam consequat aute ullamco. Consectetur nisi ut officia amet magna commodo.",
+"description":"<<<<Help Text >>>>",
         "subItems":[
             {
                 "name":"CARNE ASADA",
@@ -47,7 +47,7 @@ const catalog = {
     {
         "item":"BURRITO BOWL",
         "subTitle":"PROTEIN OR VEGGIE",
-        "description":"Elit excepteur cupidatat deserunt culpa ex exercitation voluptate elit anim. Magna irure aliqua pariatur duis quis eiusmod veniam eiusmod. Ut adipisicing eu anim commodo Lorem esse aute deserunt veniam esse quis est veniam officia. Adipisicing laboris enim nostrud duis amet in in do eu enim excepteur. Nisi consequat deserunt qui laborum adipisicing. Aliqua veniam consequat aute ullamco. Consectetur nisi ut officia amet magna commodo.",
+"description":"<<<<Help Text >>>>",
         "subItems":[
             {
                 "name":"CARNE ASADA",
@@ -91,7 +91,7 @@ const catalog = {
     {
         "item":"LIFESTYLE BOWL",
         "subTitle":"PROTEIN OR VEGGIE",
-        "description":"Elit excepteur cupidatat deserunt culpa ex exercitation voluptate elit anim. Magna irure aliqua pariatur duis quis eiusmod veniam eiusmod. Ut adipisicing eu anim commodo Lorem esse aute deserunt veniam esse quis est veniam officia. Adipisicing laboris enim nostrud duis amet in in do eu enim excepteur. Nisi consequat deserunt qui laborum adipisicing. Aliqua veniam consequat aute ullamco. Consectetur nisi ut officia amet magna commodo.",
+"description":"<<<<Help Text >>>>",
         "subItems":[
             {
                 "name":"CARNE ASADA",
@@ -135,7 +135,7 @@ const catalog = {
     {
         "item":"SALAD",
         "subTitle":"PROTEIN OR VEGGIE",
-        "description":"Elit excepteur cupidatat deserunt culpa ex exercitation voluptate elit anim. Magna irure aliqua pariatur duis quis eiusmod veniam eiusmod. Ut adipisicing eu anim commodo Lorem esse aute deserunt veniam esse quis est veniam officia. Adipisicing laboris enim nostrud duis amet in in do eu enim excepteur. Nisi consequat deserunt qui laborum adipisicing. Aliqua veniam consequat aute ullamco. Consectetur nisi ut officia amet magna commodo.",
+"description":"<<<<Help Text >>>>",
         "subItems":[
             {
                 "name":"CARNE ASADA",
@@ -179,7 +179,7 @@ const catalog = {
     {
         "item":"TACOS",
         "subTitle":"PROTEIN OR VEGGIE",
-        "description":"Elit excepteur cupidatat deserunt culpa ex exercitation voluptate elit anim. Magna irure aliqua pariatur duis quis eiusmod veniam eiusmod. Ut adipisicing eu anim commodo Lorem esse aute deserunt veniam esse quis est veniam officia. Adipisicing laboris enim nostrud duis amet in in do eu enim excepteur. Nisi consequat deserunt qui laborum adipisicing. Aliqua veniam consequat aute ullamco. Consectetur nisi ut officia amet magna commodo.",
+"description":"<<<<Help Text >>>>",
         "subItems":[
             {
                 "name":"CARNE ASADA",
@@ -222,7 +222,7 @@ const catalog = {
     },{
         "item":"SIDES AND DRINKS",
         "subTitle":"PROTEIN OR VEGGIE",
-        "description":"Elit excepteur cupidatat deserunt culpa ex exercitation voluptate elit anim. Magna irure aliqua pariatur duis quis eiusmod veniam eiusmod. Ut adipisicing eu anim commodo Lorem esse aute deserunt veniam esse quis est veniam officia. Adipisicing laboris enim nostrud duis amet in in do eu enim excepteur. Nisi consequat deserunt qui laborum adipisicing. Aliqua veniam consequat aute ullamco. Consectetur nisi ut officia amet magna commodo.",
+"description":"<<<<Help Text >>>>",
         "subItems":[
             {
                 "name":"CARNE ASADA",

@@ -247,17 +247,21 @@ code {
 
 .Order2
 {
-  width: 70%;
-    margin: 40px auto;
+    margin: 40px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .Order2 .item{
   display: flex;
+  border: 1px solid;
 }
 
 .Order2 .item .imagePlaceHolder{
   min-width: 200px;
-  margin-right: 40px;
+  margin-right: 70px;
   background-repeat: no-repeat;
+  margin: 0 40px 0 0;
 }
 
 .Order2 .item:hover{
@@ -272,8 +276,11 @@ code {
 
 .subItems2 {
   margin: 0 auto;
-  width: 70%;
-}
+  position: absolute;
+  background: #fff;
+  z-index: 8;
+  width: 100%;
+  box-shadow: 0 3px 5px 0px}
 
 .subItems2 .chunk {
   position: relative;
@@ -289,6 +296,7 @@ code {
   height: 50px;
   width: 50px;
   border-radius: 50%;
+  display: none;
 }
 
 .subItems2 .desc {
@@ -301,19 +309,23 @@ code {
 .subItems2 .desc > div{
   margin: 0 20px;
   min-width: 20%;
+  text-align: right;
 }
 .subItems2 .desc .name {
   flex: 1;
   margin: 0;
+  text-align: left
 }
 
 .subItems2 .cartHeader .image{
+  display: none;
   min-width: 90px;
 }
 
 .item-container{
-  border: 1px solid;
   margin: 20px 0;
+  width: 32%;
+      position: relative;
 }
 
 
