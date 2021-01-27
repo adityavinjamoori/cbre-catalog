@@ -33,6 +33,7 @@ code {
     float: left; */
 }
 
+
 .headerNav ul{
   list-style: none;
   display: flex;
@@ -253,6 +254,10 @@ code {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.Order2 .section30{
+  width: 30%;
+}
 .Order2 .item{
   display: flex;
   border: 1px solid;
@@ -266,18 +271,14 @@ code {
 }
 
 .Order2 .item:hover{
-  cursor: pointer;
   opacity: 0.8;
   transition: 2s opacity;
 }
 
-.Order2 .item:hover h2{
-  text-decoration: underline;
-}
+
 
 .subItems2 {
   margin: 0 auto;
-  position: absolute;
   background: #fff;
   z-index: 8;
   width: 100%;
@@ -286,7 +287,7 @@ code {
 .subItems2 .chunk {
   position: relative;
   display: flex;
-  margin: 10px;
+  margin: 0 10px 10px;
   align-items: center;
 }
 
@@ -300,11 +301,36 @@ code {
   display: none;
 }
 
+.item-container .desc{
+  display: flex;
+    flex-wrap: wrap
+}
+
+.switchContainer{
+  width: 100%
+}
+
 .subItems2 .desc {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex: 1;
+}
+
+.subItems2 .desc h2{
+  display: flex;
+  align-items: center;
+}
+
+.helpIcon {
+    display: inline-block;
+    margin: 0 10px;
+    background: #ccc;
+    color: #fff;
+    font-size: 15px;
+    padding: 0px 5px;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 .subItems2 .desc > div{
@@ -315,7 +341,9 @@ code {
 .subItems2 .desc .name {
   flex: 1;
   margin: 0;
-  text-align: left
+  text-align: left;
+  display: flex;
+  align-items: center;
 }
 
 .subItems2 .cartHeader .image{
@@ -325,8 +353,7 @@ code {
 
 .item-container{
   margin: 20px 0;
-  width: 32%;
-      position: relative;
+  position: relative;
 }
 
 
@@ -394,4 +421,12 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+.item-container .desc h2{
+  display: flex;
+  align-items: center;
+}
+.MuiDialog-paperWidthSm{
+  min-width: 400px;
 }

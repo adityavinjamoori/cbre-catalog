@@ -13,12 +13,12 @@ updateShared(_val) {
   this.setState({expanded_item: _val});
 }
 
-  getAllItems(){
+  getAllItems(sec){
     let items = [];
     let _catalog = {...catalog}
   
-    for(let i = 0 ; i< _catalog.items.length; i++){
-      items.push(<Item expanded_item={this.state.expanded_item} updateShared={this.updateShared.bind(this)} key={_catalog.items[i].item} data={_catalog.items[i]} ></Item>)
+    for(let i = sec-1 ; i< _catalog.items.length; i = i+3){
+      items.push(<Item updateShared={this.updateShared.bind(this)} key={_catalog.items[i].item} data={_catalog.items[i]} ></Item>)
     }
     return items;
   }
@@ -30,7 +30,17 @@ updateShared(_val) {
     return (
       
   <div className="Order2">
-      {this.getAllItems()}
+    <div className="section30">
+      {this.getAllItems(1)}
+      </div>
+
+      <div className="section30">
+      {this.getAllItems(2)}
+      </div>
+
+      <div className="section30">
+      {this.getAllItems(3)}
+      </div>
   </div>
     );
   }

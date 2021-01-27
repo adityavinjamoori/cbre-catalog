@@ -1,4 +1,5 @@
 import React, {useCallback} from 'react';
+import CustomizedDialogs from "./dialog";
 
 const SubItem = (data) =>{ 
     const handleOnChange = useCallback((event) => {
@@ -24,7 +25,7 @@ const SubItem = (data) =>{
       </div>
       <div className="desc">
           <div className="name">
-            {data.data.name}
+            {data.data.name} <span ><CustomizedDialogs data = {data.data}></CustomizedDialogs></span>
           </div>
 
           <div className="calories">
