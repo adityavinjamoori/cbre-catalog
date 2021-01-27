@@ -12,7 +12,6 @@ return (
     <div className="cartHeader chunk">
       <h4 className="image"></h4>
       <h4 className="name">Item</h4>
-      <h4 className="cal">Calories</h4>
       <h4 className="Price">Price</h4>
       <h4 className="Price">Add to Cart</h4>
     </div>

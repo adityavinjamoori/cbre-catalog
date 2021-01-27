@@ -27,7 +27,7 @@ class Item extends React.Component {
         <div  className="item-container">
 
         <div className="item" >
-            <div className="imagePlaceHolder"></div>
+            <div className={`imagePlaceHolder ${this.props.data.item}`}></div>
             <div className="desc">
                 <h2 ><span className="titleName">{this.props.data.item}</span>
                 <span ><CustomizedDialogs data = {this.props.data}></CustomizedDialogs></span>

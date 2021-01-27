@@ -23,16 +23,6 @@ code {
   min-height: 65px;
   z-index: 10;
 }
-.headerNav .cbreLogo{
-  /* display: none;
-  background: url("https://raw.githubusercontent.com/adityavinjamoori/cbre-catalog/main/src/assets/images.png") no-repeat 0 0;
-    background-size: 140px;
-    height: 60px;
-    width: 190px;
-    display: inline-block;
-    float: left; */
-}
-
 
 .headerNav ul{
   list-style: none;
@@ -66,6 +56,14 @@ code {
   background: url("https://raw.githubusercontent.com/adityavinjamoori/cbre-catalog/main/src/assets/placeholder-images-image_large.png");
   background-size: 200px;
   margin: 0 auto;
+}
+
+.imagePlaceHolder.WorkOrder{
+  background: url("https://raw.githubusercontent.com/adityavinjamoori/cbre-catalog/main/src/assets/placeholder-images-image_large.png");
+}
+
+.imagePlaceHolder.Property{
+  background: url("https://raw.githubusercontent.com/adityavinjamoori/cbre-catalog/main/src/assets/placeholder-images-image_large.png");
 }
 
 .Order{
@@ -256,7 +254,7 @@ code {
 }
 
 .Order2 .section30{
-  width: 30%;
+  width: 49%;
 }
 .Order2 .item{
   display: flex;
@@ -265,9 +263,8 @@ code {
 
 .Order2 .item .imagePlaceHolder{
   min-width: 200px;
-  margin-right: 70px;
   background-repeat: no-repeat;
-  margin: 0 40px 0 0;
+  margin: 0 20px 0 0;
 }
 
 .Order2 .item:hover{
@@ -336,7 +333,7 @@ code {
 .subItems2 .desc > div{
   margin: 0 20px;
   min-width: 20%;
-  text-align: right;
+  text-align: center;
 }
 .subItems2 .desc .name {
   flex: 1;

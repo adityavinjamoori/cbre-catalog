@@ -27,10 +27,6 @@ const SubItem = (data) =>{
           <div className="name">
             {data.data.name} <span ><CustomizedDialogs data = {data.data}></CustomizedDialogs></span>
           </div>
-
-          <div className="calories">
-            {data.data.calories} cal
-          </div>
           <div className="amount">
             $ {data.data.price}
           </div>

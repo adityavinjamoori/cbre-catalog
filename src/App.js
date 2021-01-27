@@ -15,11 +15,7 @@ export default function App() {
     <Router>
       <div>
         <nav className="headerNav">
-          <div className="cbreLogo"></div>
           <ul>
-            <li>
-              <NavLink  to="/Order">Option 1</NavLink>
-            </li>
             <li>
               <NavLink to="/Order2">Option 2</NavLink>
             </li>

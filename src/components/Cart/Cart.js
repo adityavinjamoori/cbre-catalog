@@ -17,14 +17,14 @@ const Cart = () => {
   <div className="Cart">
     <div className="cartHeader">
       <h4 className="name"></h4>
-      <h4 className="cal">Calories</h4>
+      {/* <h4 className="cal">Calories</h4> */}
       <h4 className="Price">Price</h4>
     </div>
     {getCartItems(cartItems)}
 
     <div className="cartHeader cartFooter">
       <h4 className="name">Total:</h4>
-      <h4 className="cal">{getTotalCal(cartItems)}</h4>
+      {/* <h4 className="cal">{getTotalCal(cartItems)}</h4> */}
       <h4 className="Price">$ {getTotalPrice(cartItems)}</h4>
     </div>
 
